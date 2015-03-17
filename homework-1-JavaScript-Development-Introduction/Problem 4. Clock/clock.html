@@ -1,0 +1,29 @@
+<!DOCTYPE heml>
+<html>
+<head>
+<title>Clock</title>
+</head>
+<body onload="updateClock(); setInterval('updateClock()', 1000 )">
+<span id="clock">&nbsp;</span>
+
+<script>
+function updateClock() {
+	var currentTime = new Date();
+	var currentHours = currentTime.getHours ( );
+	var currentMinutes = currentTime.getMinutes ( );
+	var currentSeconds = currentTime.getSeconds ( );
+	
+	currentSeconds = ( currentSeconds < 10 ? "0" : "" ) + currentSeconds;
+	currentMinutes = ( currentMinutes < 10 ? "0" : "" ) + currentMinutes;
+	currentHours = ( currentHours < 10 ? "0" : "" ) + currentHours;
+	
+	var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds;
+	document.getElementById("clock").firstChild.nodeValue = currentTimeString;
+}
+</script>
+
+</body>
+</html>
+
+<!-- this solution is based on the description found on http://www.elated.com/articles/creating-a-javascript-clock/
+-->

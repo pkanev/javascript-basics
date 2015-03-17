@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Rock Salt', cursive;
+}
+#wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	justify-content:flex-start;
+	align-items: flex-start;
+	margin-top: 100px;
+	box-sizing: border-box;
+}
+.play-area{
+	width: 33.33%;
+	height: 100px;
+	box-sizing: border-box;
+	font-size: 4rem;
+	font-weight: bold;
+	cursor: pointer;
+	display: flex;
+	color: blue;
+	justify-content: center;
+	align-items: center;
+}
+.one{
+	border-bottom: 5px solid #000;
+	border-right: 5px solid #000;
+}
+.two{
+	border-bottom: 5px solid #000;
+	border-right: 5px solid #000;
+	border-left: 5px solid #000;
+}
+.three{
+	border-bottom: 5px solid #000;
+	border-left: 5px solid #000;
+}
+.four{
+	border-bottom: 5px solid #000;
+	border-right: 5px solid #000;
+	border-top: 5px solid #000;
+}
+.five{
+	border: 5px solid #000;
+}
+.six{
+	border-bottom: 5px solid #000;
+	border-left: 5px solid #000;
+	border-top: 5px solid #000;}
+.seven{
+	border-top: 5px solid #000;
+	border-right: 5px solid #000;
+}
+.eight{
+	border-top: 5px solid #000;
+	border-right: 5px solid #000;
+	border-left: 5px solid #000;
+}
+.nine{
+	border-top: 5px solid #000;
+	border-left: 5px solid #000;
+}
+#player-turn {
+	display: block;
+	text-align: center;
+	font-size:	1.2rem;
+	color: blue;
+	font-weight: bold;
+	margin-top: 2rem;
+	width: 300px;
+	height: 3rem;
+}
+#button{
+	display: none;
+	margin: 1rem auto;
+	width: 80%;
+	height: 4rem;
+	border: 5px solid red;
+	border-radius: 4rem;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+#button:hover{
+	background-color: blue;
+}
+#button>h2{
+	color: red;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}

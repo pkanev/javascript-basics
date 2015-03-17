@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic-Tac-Toe</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+	<div id="wrapper">
+	<main>
+		<div class="play-area one" onmouseup="playBox(this)" id="11"></div>
+		<div class="play-area two" onmouseup="playBox(this)" id="12"></div>
+		<div class="play-area three" onmouseup="playBox(this)" id="13"></div>
+		<div class="play-area four" onmouseup="playBox(this)" id="21"></div>
+		<div class="play-area five" onmouseup="playBox(this)" id="22"></div>
+		<div class="play-area six" onmouseup="playBox(this)" id="23"></div>
+		<div class="play-area seven" onmouseup="playBox(this)" id="31"></div>
+		<div class="play-area eight" onmouseup="playBox(this)" id="32"></div>
+		<div class="play-area nine" onmouseup="playBox(this)" id="33"></div>
+		<div id="player-turn"></div>
+		<div id="button" >
+			<h2 onmouseup="replay()">play again</h2>
+		</div>
+	</main>
+	</div>
+	<script src="scripts/script.js"></script>
+  </body>
+  </html>
