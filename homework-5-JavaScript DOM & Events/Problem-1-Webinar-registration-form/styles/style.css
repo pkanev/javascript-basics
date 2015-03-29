@@ -1,0 +1,51 @@
+body, header, h1, form {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	font-size: 16px;
+}
+main{
+	display: block;
+	width: 500px;
+	margin: 0 auto;
+	background-color: #fff7f0;
+	padding-bottom: 2rem;
+}
+main form header h1{
+	padding: 1.5rem;
+	text-align: center;
+	font-size: 1.5rem;
+}
+main form #inputs {
+	display: block;
+	margin-left: 100px;
+	width: 300px;
+}
+main form #inputs label{
+	display: block;
+}
+main form #inputs input{
+	width: 100%;
+	display: block;
+	line-height: 1.5rem;
+	margin-bottom: .5rem;
+}
+main form #inputs .inline {
+	display: inline-block;
+}
+main form #inputs #bill{
+	width: 25px;
+}
+main form #inputs #buttons{
+	display: block;
+}
+main form #inputs #buttons #submit{
+	width: auto;
+	margin-right: 1rem;
+}
+main form #inputs #buttons #reset{
+	width: auto;
+}
+main form #inputs .required{
+	color: red;
+}
